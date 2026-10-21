@@ -13,6 +13,9 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'logs' => [
+        'chave' => env('SERVICO_LOGS_CHAVE'),
+    ],
 
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
